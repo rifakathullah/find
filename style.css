@@ -1,0 +1,180 @@
+
+html {
+    scroll-behavior: smooth;
+   }
+
+nav ul li a .nav-link{
+    padding: 10px;
+    color: #00B4EF;
+    font-weight: bold;
+}
+
+.second-nav{
+    top: 50px;
+    color: rgb(255, 255, 255) !important;
+    
+}
+
+.bg-cyan{
+    background-color: #00B4EF;
+    color: white;
+}
+
+#navbar2{
+    font-weight: bold;
+}
+
+
+/********************* shopping Demo-1 **********************/
+.product-grid{font-family:Raleway,sans-serif;text-align:center;  padding:0 0 0px;border:1px solid rgba(0,0,0,.1);overflow:hidden;position:relative;z-index:1}
+.product-grid .product-image{position:relative;transition:all .3s ease 0s}
+.product-grid .product-image a{display:block}
+.product-grid .product-image img{width:100%;height:auto}
+.product-grid .pic-2{opacity:0;position:absolute;top:0;left:0;transition:all .3s ease-out 0s}
+.product-grid .product-discount-label,.product-grid .product-new-label{color:#fff;background-color:#ef9457;font-size:12px;text-transform:uppercase;padding:2px 7px;display:block;position:absolute;top:10px;left:10px}
+.product-grid .product-discount-label,.product-grid .sale{background-color: #00B4EF;}
+.product-grid .product-discount-label{background-color:#333;left:auto;right:0}
+.product-grid .rating{color:#0099ff;font-size:22px;padding:12px 0 0;margin:0;list-style:none;position:relative;z-index:-1}
+.product-grid .price{color:#333;font-size:17px;font-family:Montserrat,sans-serif;font-weight:700;letter-spacing:.6px;margin-bottom:8px;text-align:center;transition:all .3s}
+.product-grid .price span{color:#999;font-size:13px;font-weight:400;text-decoration:line-through;margin-left:3px;display:inline-block}
+.product-grid .add-to-cart{color:#000;font-size:13px;font-weight:600}
+@media only screen and (max-width:990px){.product-grid{margin-bottom:30px}
+}
+
+
+
+
+.cus-img {
+    float:left; 
+    margin-right:15px;
+    height: 100px;
+    width: 100px;
+  }
+
+  .navbar-toggler-icon{
+      color: #3c3d41;
+  }
+
+  .navbar-toggler{
+      background-color: #00B4EF;
+      color: #333;
+  }
+  
+  .btn-grad {background-image: linear-gradient(to right, #16A085 0%, #F4D03F  51%, #16A085  50%)}
+  .btn-grad {
+     margin: 10px;
+     padding: 15px 45px;
+     text-align: center;
+     text-transform: uppercase;
+     transition: 0.5s;
+     background-size: 200% auto;
+     color: white;            
+     box-shadow: 0 0 20px #eee;
+     border-radius: 10px;
+     display: block;
+   }
+
+   .btn-grad:hover {
+     background-position: right center; /* change the direction of the change here */
+     color: #fff;
+     text-decoration: none;
+   }
+  
+.tilte{
+     padding-top: 0px;
+       padding-left: 100px;
+       padding-right: 100px;
+    font-weight: 900;
+   }
+
+   .howtowork{
+    padding-top: 0px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .howtowor{
+    padding-top: 0px;
+  padding: 50px;
+  
+  }
+
+  .footer-bs {
+    background-color: #3c3d41;
+	padding: 40px 40px;
+	color: rgba(255,255,255,1.00);
+	margin-bottom: 20px;
+	border-bottom-right-radius: 6px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 6px;
+}
+
+section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.bg-yellow{
+    background-color: #FF9C01 !important;
+    color: white !important;
+}
+
+.btn-yellow{
+    background-image: url(img/yellow.png);
+}
+
+.btn-yellow:hover{
+    background-image: url(img/yellow-hover.png);
+}
+
+.btn-blue{
+    background-image: url(img/blue.png);
+}
+
+.btn-blue:hover{
+    background-image: url(img/blue-hover.png);
+}
+.carousel-caption {
+    align-items: center;
+    right: 10%;
+    text-align: right;
+    max-width: 600px;
+    left: auto;
+    top: 50%;
+transform: translateY(-50%);
+   
+}
+
+
+
+footer ul{
+    list-style: none;
+    padding-inline-start: 0;
+    color: #00B4EF;
+}
+
+footer h5{
+  
+    color: #00B4EF;
+}
+
+footer ul li a{
+    list-style: none;
+    padding-inline-start: 0;
+    color: #ffffff;
+}
+
+footer ul li a:hover{
+    list-style: none;
+    padding-inline-start: 0;
+    color: #00B4EF;
+}
+
+footer .social{
+    padding-left: 20px;
+    width: 80;
+}
+
+.type{
+    font-family: monospace;
+}
